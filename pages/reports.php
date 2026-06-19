@@ -31,7 +31,7 @@ include __DIR__ . '/../partials/header.php';
 
 <div class="card">
   <h2>Compliance framework mapping</h2>
-  <p class="muted small">How VendorAssess 360 features support common third-party-risk requirements.</p>
+  <p class="muted small">How LT-VRM features support common third-party-risk requirements.</p>
   <div class="table-wrap"><table class="data">
     <thead><tr><th>Framework / regulation</th><th>Requirement theme</th><th>Where it lives in the platform</th></tr></thead>
     <tbody>

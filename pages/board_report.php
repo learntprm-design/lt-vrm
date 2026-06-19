@@ -32,7 +32,7 @@ include __DIR__ . '/../partials/header.php';
 <div class="card" style="text-align:center">
   <h1 style="font-size:1.7rem">Third-Party Risk Management — Program Report</h1>
   <p class="muted"><?= e(setting('org_name', 'My Organization')) ?> · Generated <?= e(date('F j, Y')) ?> ·
-    Prepared with VendorAssess 360 by LearnTPRM.com</p>
+    Prepared with LT-VRM by LearnTPRM.com</p>
 </div>
 
 <div class="grid c4">
@@ -114,7 +114,7 @@ include __DIR__ . '/../partials/header.php';
     Bands: 0–399 Critical · 400–599 High · 600–749 Moderate · 750–899 Good · 900–1000 Excellent.
     Assessment results carry full credit for 12 months, then decay toward neutral by month 24 — stale
     due diligence does not vouch for a vendor. Statistics cover the active portfolio (terminated vendors excluded).</p>
-  <p class="muted small">Report produced by VendorAssess 360 — The World's Most Comprehensive Open-Source TPRM Platform,
+  <p class="muted small">Report produced by LT-VRM — The World's Most Comprehensive Open-Source TPRM Platform,
     developed by LearnTPRM.com.</p>
 </div>
 <?php include __DIR__ . '/../partials/footer.php';

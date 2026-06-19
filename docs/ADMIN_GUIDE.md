@@ -1,4 +1,4 @@
-# Admin Guide — VendorAssess 360
+# Admin Guide — LT-VRM
 *For the person who owns the platform. Plain language, no surprises.*
 
 ## Settings → Organization
@@ -41,8 +41,8 @@ so demos and training always work. Demo findings are flagged `demo` in the datab
 
 ## Backups (the only maintenance there is)
 Back up two things:
-1. **The database** — phpMyAdmin → `vendorassess360` → Export (SQL). Or:
-   `mysqldump -u root vendorassess360 > backup.sql`
+1. **The database** — phpMyAdmin → `lt_vrm` → Export (SQL). Or:
+   `mysqldump -u root lt_vrm > backup.sql`
 2. **The `uploads/` folder** — all evidence, documents and contract files.
 
 Restore = import the SQL + copy `uploads/` back. `config.php` holds the DB credentials; keep a copy.

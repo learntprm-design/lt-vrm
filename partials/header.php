@@ -1,6 +1,6 @@
 <?php
 /** Shared layout header: <head>, sidebar nav, opening of main column. */
-$pageTitle = $GLOBALS['VA_PAGE_TITLE'] ?? 'VendorAssess 360';
+$pageTitle = $GLOBALS['VA_PAGE_TITLE'] ?? 'LT-VRM';
 $active    = $_GET['p'] ?? 'dashboard';
 $unreadAlerts = 0;
 if (is_logged_in()) {
@@ -12,7 +12,7 @@ if (is_logged_in()) {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title><?= e($pageTitle) ?> · VendorAssess 360</title>
+<title><?= e($pageTitle) ?> · LT-VRM</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/app.css">

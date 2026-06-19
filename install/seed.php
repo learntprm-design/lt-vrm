@@ -1,6 +1,6 @@
 <?php
 /**
- * VendorAssess 360 — Seeder
+ * LT-VRM — Seeder
  * va_seed_core(): default settings + built-in questionnaire templates (always runs)
  * va_seed_demo(): 52 realistic vendors with full module data (optional)
  * Uses raw PDO because it runs inside the installer, before the app boots.

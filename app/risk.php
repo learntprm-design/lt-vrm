@@ -1,6 +1,6 @@
 <?php
 /**
- * VendorAssess 360 — Risk Scoring Engine (0–1000)
+ * LT-VRM — Risk Scoring Engine (0–1000)
  *
  * Low score = dangerous · High score = secure.
  *

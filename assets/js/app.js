@@ -1,4 +1,4 @@
-/* VendorAssess 360 — UI behaviours (vanilla JS, no dependencies) */
+/* LT-VRM — UI behaviours (vanilla JS, no dependencies) */
 (function () {
   'use strict';
 

@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $uid = (int)db()->lastInsertId();
             audit('user_invited', 'user', $uid, "$email as $role");
             $link = url('accept_invite', ['token' => $token]);
-            $mailed = send_mail($email, 'You are invited to VendorAssess 360',
+            $mailed = send_mail($email, 'You are invited to LT-VRM',
                 '<p>Hello ' . e($name) . ',</p><p>You\'ve been invited to the TPRM platform as <strong>' . e($role) . '</strong>.</p>
                  <p><a href="' . e($link) . '">Click here to set your password and activate your account</a>.</p>');
             flash('success', 'Invitation created.' . ($mailed ? ' Email sent.' : ' SMTP not configured — share this link manually: ' . $link));
@@ -65,7 +65,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             q('UPDATE users SET password_hash = ?, failed_logins = 0, locked_until = NULL WHERE id = ?',
               [password_hash($temp, PASSWORD_DEFAULT), $uid]);
             audit('user_password_reset', 'user', $uid, $u['email']);
-            $mailed = send_mail($u['email'], 'Your VendorAssess 360 password was reset',
+            $mailed = send_mail($u['email'], 'Your LT-VRM password was reset',
                 '<p>Your temporary password is: <strong>' . e($temp) . '</strong></p><p>Please sign in and change it.</p>');
             flash('success', 'Password reset for ' . $u['name'] . '.' .
                 ($mailed ? ' Emailed to them.' : ' Temporary password (share securely): ' . $temp));

@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         redirect('settings');
     }
     if ($act === 'test_mail') {
-        $ok = send_mail(current_user()['email'], 'VendorAssess 360 — SMTP test',
+        $ok = send_mail(current_user()['email'], 'LT-VRM — SMTP test',
             '<p>If you can read this, your SMTP settings work. 🎉</p>');
         flash($ok ? 'success' : 'error', $ok ? 'Test email sent to ' . current_user()['email'] . '.'
             : 'Test email failed — check host/port/credentials, and that your network allows outbound SMTP.');

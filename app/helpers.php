@@ -1,6 +1,6 @@
 <?php
 /**
- * VendorAssess 360 — Core helpers
+ * LT-VRM — Core helpers
  * Database, security (CSRF/escaping), auth/RBAC, settings, audit log,
  * flash messages, pagination, uploads, mail (raw SMTP, zero dependencies).
  */
@@ -337,11 +337,11 @@ function send_mail(string $to, string $subject, string $htmlBody): bool {
 
     try {
         $read();
-        if (!$say('EHLO vendorassess360', [250])) return false;
+        if (!$say('EHLO lt-vrm', [250])) return false;
         if ($sec === 'tls') {
             if (!$say('STARTTLS', [220])) return false;
             if (!stream_socket_enable_crypto($fp, true, STREAM_CRYPTO_METHOD_TLS_CLIENT)) return false;
-            if (!$say('EHLO vendorassess360', [250])) return false;
+            if (!$say('EHLO lt-vrm', [250])) return false;
         }
         if ($user !== '') {
             if (!$say('AUTH LOGIN', [334])) return false;
@@ -351,7 +351,7 @@ function send_mail(string $to, string $subject, string $htmlBody): bool {
         if (!$say('MAIL FROM:<' . $from . '>', [250])) return false;
         if (!$say('RCPT TO:<' . $to . '>', [250, 251])) return false;
         if (!$say('DATA', [354])) return false;
-        $headers = 'From: VendorAssess 360 <' . $from . ">\r\n"
+        $headers = 'From: LT-VRM <' . $from . ">\r\n"
                  . 'To: <' . $to . ">\r\n"
                  . 'Subject: =?UTF-8?B?' . base64_encode($subject) . "?=\r\n"
                  . "MIME-Version: 1.0\r\nContent-Type: text/html; charset=UTF-8\r\n\r\n";

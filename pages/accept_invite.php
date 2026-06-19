@@ -20,7 +20,7 @@ if ($u && $_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 <!doctype html><html lang="en"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1"><title>Accept invitation · VendorAssess 360</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>Accept invitation · LT-VRM</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/app.css"></head><body>
 <div style="min-height:100vh;display:grid;place-items:center;padding:1rem;background:var(--bg)">

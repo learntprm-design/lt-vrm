@@ -95,7 +95,7 @@ $lifecycle = [
 </div>
 
 <div class="card" style="text-align:center">
-  <p class="muted small">VendorAssess 360 is developed and maintained by
+  <p class="muted small">LT-VRM is developed and maintained by
     <a href="https://learntprm.com" target="_blank" rel="noopener"><strong>LearnTPRM.com</strong></a> —
     World's Hardest Free TPRM Certification. This platform and the certification share one mission:
     making world-class third-party risk management accessible to everyone.</p>

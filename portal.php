@@ -1,6 +1,6 @@
 <?php
 /**
- * VendorAssess 360 — Vendor Portal (public, tokenized)
+ * LT-VRM — Vendor Portal (public, tokenized)
  * Vendors open this via the secure link — no account required.
  * They answer the questionnaire, attach evidence, and submit.
  * In clarification rounds only the flagged questions are editable.
@@ -12,7 +12,7 @@ $a = $token !== '' ? row('SELECT * FROM assessments WHERE token = ?', [$token]) 
 
 function portal_shell(string $title, string $body): void {
     echo '<!doctype html><html lang="en"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1"><title>' . e($title) . ' · VendorAssess 360</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>' . e($title) . ' · LT-VRM</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/app.css"></head><body>
 <div style="min-height:100vh;background:radial-gradient(ellipse at 50% -20%, rgba(238,192,92,.07), transparent 55%), var(--bg);padding:2rem 1rem">

@@ -1,6 +1,6 @@
 <?php
 /**
- * VendorAssess 360 — Intelligence Connectors
+ * LT-VRM — Intelligence Connectors
  *
  * Pattern: every scan tries LIVE sources first (when an API key / internet is
  * available) and falls back to clearly-labeled DEMO MODE data, so the platform
@@ -20,7 +20,7 @@ function net_available(): bool {
 
 function http_get_json(string $url, array $headers = []): ?array {
     $opts = ['http' => ['method' => 'GET', 'timeout' => 8,
-             'header' => implode("\r\n", array_merge(['User-Agent: VendorAssess360'], $headers)),
+             'header' => implode("\r\n", array_merge(['User-Agent: LT-VRM'], $headers)),
              'ignore_errors' => true]];
     $body = @file_get_contents($url, false, stream_context_create($opts));
     if ($body === false) return null;

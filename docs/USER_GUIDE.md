@@ -1,4 +1,4 @@
-# User Guide — VendorAssess 360
+# User Guide — LT-VRM
 *Every feature, in super simple language. No jargon without an explanation.*
 
 > **You may not even need this guide.** The platform explains itself as you use it:

@@ -1,4 +1,4 @@
--- VendorAssess 360 by LearnTPRM.com — Database Schema
+-- LT-VRM by LearnTPRM.com — Database Schema
 -- MySQL / MariaDB (XAMPP compatible). Engine: InnoDB, charset utf8mb4.
 
 SET NAMES utf8mb4;

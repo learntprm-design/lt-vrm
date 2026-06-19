@@ -1,6 +1,6 @@
 ---
 name: "💡 Feature request"
-about: Suggest an idea for VendorAssess 360
+about: Suggest an idea for LT-VRM
 title: "[Feature] "
 labels: enhancement
 ---

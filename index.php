@@ -1,6 +1,6 @@
 <?php
 /**
- * VendorAssess 360 by LearnTPRM.com — Front controller
+ * LT-VRM by LearnTPRM.com — Front controller
  * All requests route through here: index.php?p=<page>
  */
 require __DIR__ . '/app/bootstrap.php';

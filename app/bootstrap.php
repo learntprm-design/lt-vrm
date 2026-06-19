@@ -1,6 +1,6 @@
 <?php
 /**
- * VendorAssess 360 — Bootstrap
+ * LT-VRM — Bootstrap
  * Loads config, opens the session securely, registers a friendly error handler.
  */
 
@@ -35,7 +35,7 @@ date_default_timezone_set('UTC');
 
 /** Friendly fatal-error page (production). */
 set_exception_handler(function (Throwable $e) {
-    error_log('VendorAssess360: ' . $e->getMessage() . ' @ ' . $e->getFile() . ':' . $e->getLine());
+    error_log('LT-VRM: ' . $e->getMessage() . ' @ ' . $e->getFile() . ':' . $e->getLine());
     if (!empty($GLOBALS['VA_CONFIG']['debug'])) {
         http_response_code(500);
         echo '<pre style="padding:2rem;color:#c00">' . htmlspecialchars((string)$e) . '</pre>';

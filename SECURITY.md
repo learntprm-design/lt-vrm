@@ -1,6 +1,6 @@
 # Security Policy
 
-VendorAssess 360 is a security tool, so we take the security of the platform itself seriously.
+LT-VRM is a security tool, so we take the security of the platform itself seriously.
 
 ## Reporting a vulnerability
 
@@ -28,7 +28,7 @@ anonymous.
 
 ## Hardening already built in
 
-VendorAssess 360 ships secure by default: prepared statements everywhere, CSRF tokens on every form,
+LT-VRM ships secure by default: prepared statements everywhere, CSRF tokens on every form,
 `password_hash()` for credentials, session hardening and regeneration, login rate‑limiting with
 lockout, an upload whitelist with randomized filenames and a deny‑all `.htaccess` on `uploads/`,
 output escaping, role‑based access control, and a full audit log.

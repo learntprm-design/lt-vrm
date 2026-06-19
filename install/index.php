@@ -1,6 +1,6 @@
 <?php
 /**
- * VendorAssess 360 — Guided Installer
+ * LT-VRM — Guided Installer
  * Step 1: environment checks → Step 2: database + admin → Step 3: done.
  * Locks itself after a successful install (config.php exists).
  */
@@ -37,7 +37,7 @@ $errors = [];
 if (!$installed && $_SERVER['REQUEST_METHOD'] === 'POST' && $allOk) {
     $dbHost = trim((string)($_POST['db_host'] ?? '127.0.0.1'));
     $dbPort = (int)($_POST['db_port'] ?? 3306);
-    $dbName = trim((string)($_POST['db_name'] ?? 'vendorassess360'));
+    $dbName = trim((string)($_POST['db_name'] ?? 'lt_vrm'));
     $dbUser = trim((string)($_POST['db_user'] ?? 'root'));
     $dbPass = (string)($_POST['db_pass'] ?? '');
     $admName  = trim((string)($_POST['admin_name'] ?? ''));
@@ -107,7 +107,7 @@ function va_guess_url(): string {
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Install · VendorAssess 360</title>
+<title>Install · LT-VRM</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/css/app.css">
 </head>
@@ -153,7 +153,7 @@ function va_guess_url(): string {
       <input type="text" readonly onclick="this.select()" style="font-family:monospace"
              value="sudo chmod 777 &quot;<?= h($root) ?>&quot; &quot;<?= h($root) ?>/uploads&quot;">
       <p class="small" style="margin-top:.6rem"><strong>Windows (XAMPP)</strong> — usually already writable.
-        If not: right-click the <code>vendorassess360</code> folder → Properties → Security → Edit →
+        If not: right-click the <code>lt-vrm</code> folder → Properties → Security → Edit →
         select <em>Users</em> → tick <em>Full control</em> → OK.</p>
       <p class="help">This only loosens two folders on your local server so Apache can create
         <code>config.php</code> and store uploads — standard practice for XAMPP installs.</p>
@@ -180,7 +180,7 @@ function va_guess_url(): string {
       </div>
       <div class="form-row">
         <div><label>Database name <span class="muted">(created if missing)</span></label>
-          <input type="text" name="db_name" value="<?= h($_POST['db_name'] ?? 'vendorassess360') ?>"></div>
+          <input type="text" name="db_name" value="<?= h($_POST['db_name'] ?? 'lt_vrm') ?>"></div>
         <div><label>User</label><input type="text" name="db_user" value="<?= h($_POST['db_user'] ?? 'root') ?>"></div>
       </div>
       <label>Password <span class="muted">(blank on default XAMPP)</span></label>
@@ -198,7 +198,7 @@ function va_guess_url(): string {
         <input type="checkbox" id="seed" name="seed_demo" value="1" checked>
         <label for="seed">Load the demo dataset (52 realistic vendors with documents, contracts, assessments &amp; scores) — recommended for first impressions</label>
       </div>
-      <button class="btn btn-gold" style="margin-top:1.2rem">Install VendorAssess 360 →</button>
+      <button class="btn btn-gold" style="margin-top:1.2rem">Install LT-VRM →</button>
     </form>
   </div>
 
@@ -207,7 +207,7 @@ function va_guess_url(): string {
     <div style="font-size:2.6rem">🏯</div>
     <h2>Installation complete</h2>
     <?php if ($installed): ?>
-      <p class="muted">VendorAssess 360 is ready. The installer is now locked — to reinstall, delete <code>config.php</code> and the database.</p>
+      <p class="muted">LT-VRM is ready. The installer is now locked — to reinstall, delete <code>config.php</code> and the database.</p>
       <p style="margin-top:1.2rem"><a class="btn btn-gold" href="../index.php?p=login">Open the platform →</a></p>
     <?php else: ?>
       <p class="muted">Something is off — config.php was not found. <a href="index.php">Restart the installer</a>.</p>

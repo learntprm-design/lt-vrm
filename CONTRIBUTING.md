@@ -1,6 +1,6 @@
-# Contributing to VendorAssess 360
+# Contributing to LT-VRM
 
-First off — **thank you.** VendorAssess 360 is a free gift to the third‑party‑risk community, and
+First off — **thank you.** LT-VRM is a free gift to the third‑party‑risk community, and
 every issue, idea, and pull request makes it better for the next risk analyst who installs it.
 
 You do **not** need to be a professional developer to help. Reporting a confusing screen, fixing a
@@ -22,7 +22,7 @@ No Composer, no Node, no build step.
 
 1. **Fork** this repository and clone your fork.
 2. Drop the folder into your XAMPP `htdocs/` directory.
-3. Start Apache + MySQL, open `http://localhost/vendorassess360/`, run the guided installer
+3. Start Apache + MySQL, open `http://localhost/lt-vrm/`, run the guided installer
    (keep **"Load the demo dataset"** checked for instant test data).
 4. Create a branch: `git checkout -b fix/clear-description`.
 5. Make your change, test it locally against the demo dataset.

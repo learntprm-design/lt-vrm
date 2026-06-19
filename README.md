@@ -1,10 +1,13 @@
 <div align="center">
 
-<img src="assets/img/banner.png" alt="VendorAssess 360 — The World's Most Comprehensive Open-Source TPRM Platform" width="100%">
+<img src="assets/img/banner.png" alt="LT-VRM — Free Third Party Risk Management Platform" width="100%">
 
-# VendorAssess 360
+# LT-VRM
 
-### The world's most comprehensive **open-source** Third-Party Risk Management platform
+### Free Third Party Risk Management Platform
+
+**LT-VRM : Free Third Party Risk Management Platform** — the world's most comprehensive
+**open-source** TPRM / Vendor Risk Management platform.
 
 Run a complete TPRM / Vendor Risk Management program on a stock **XAMPP** server.
 **No Composer. No Node. No build step.** Drop it in `htdocs`, run the installer, done.
@@ -27,7 +30,7 @@ Run a complete TPRM / Vendor Risk Management program on a stock **XAMPP** server
 
 ## 📑 Table of contents
 
-- [Why VendorAssess 360](#-why-vendorassess-360)
+- [Why LT-VRM](#-why-lt-vrm)
 - [Features](#-features)
 - [5-minute install](#-5-minute-install)
 - [Live data vs Demo Mode](#-live-data-vs-demo-mode)
@@ -39,10 +42,10 @@ Run a complete TPRM / Vendor Risk Management program on a stock **XAMPP** server
 
 ---
 
-## 🎯 Why VendorAssess 360
+## 🎯 Why LT-VRM
 
 Most TPRM tools are either eye-wateringly expensive SaaS or thin checklists that fall apart past a
-handful of vendors. VendorAssess 360 is different:
+handful of vendors. LT-VRM is different:
 
 - **🏢 Enterprise-grade, zero cost.** A full vendor-risk lifecycle — onboarding, assessments,
   intelligence, scoring, remediation, offboarding — built to manage **1,000+ vendors** smoothly.
@@ -82,10 +85,10 @@ handful of vendors. VendorAssess 360 is different:
 > **Requirements:** [XAMPP](https://www.apachefriends.org/) (Apache + PHP 8.1+ + MySQL/MariaDB). Nothing else.
 
 1. **Install XAMPP** and start **Apache** and **MySQL** from the control panel.
-2. **Copy** the `vendorassess360` folder into your web root:
+2. **Copy** the `lt-vrm` folder into your web root:
    - Windows → `C:\xampp\htdocs\`
    - macOS → `/Applications/XAMPP/htdocs/`
-3. **Open** **http://localhost/vendorassess360/** — the installer starts automatically.
+3. **Open** **http://localhost/lt-vrm/** — the installer starts automatically.
 4. **Follow the 3 steps** (environment check → database & admin account → done). Keep
    **“Load the demo dataset”** checked to get **52 realistic vendors** with documents, contracts,
    assessments, and scores instantly.
@@ -153,7 +156,7 @@ Found a vulnerability? Please report it responsibly — see **[SECURITY.md](SECU
 
 ## 🤝 Contributing & community
 
-VendorAssess 360 is built **for** the community, **by** the community. You don't need to be a
+LT-VRM is built **for** the community, **by** the community. You don't need to be a
 developer to help — reporting a confusing screen or fixing a typo counts.
 
 - 🐛 [Report a bug](../../issues/new/choose) · 💡 [Request a feature](../../issues/new/choose)
@@ -166,7 +169,7 @@ If this project saves you time, please ⭐ **star the repo** — it helps other 
 
 ## 🔎 Looking for a free / open-source TPRM tool?
 
-You're in the right place. **VendorAssess 360** is a **free, open-source, self-hosted alternative**
+You're in the right place. **LT-VRM** is a **free, open-source, self-hosted alternative**
 to expensive commercial vendor-risk platforms. If you searched for any of the following, this is it:
 
 **Free TPRM software / platform / tool** · **open-source TPRM platform** ·

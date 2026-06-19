@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: 📚 Documentation
-    url: https://github.com/learntprm/vendorassess360/tree/main/docs
+    url: https://github.com/learntprm-design/lt-vrm/tree/main/docs
     about: Install, user, admin, and troubleshooting guides.
   - name: 🥷 Learn TPRM (free certification)
     url: https://learntprm.com

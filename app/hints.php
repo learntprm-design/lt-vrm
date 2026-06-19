@@ -1,6 +1,6 @@
 <?php
 /**
- * VendorAssess 360 — In-product Guidance Engine
+ * LT-VRM — In-product Guidance Engine
  *
  * One registry powers three things:
  *   1. hint('key')        — small ⓘ icon, click to read "what is this & what can I do"
