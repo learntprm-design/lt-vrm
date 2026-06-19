@@ -164,6 +164,26 @@ If this project saves you time, please ⭐ **star the repo** — it helps other 
 
 ---
 
+## 🔎 Looking for a free / open-source TPRM tool?
+
+You're in the right place. **VendorAssess 360** is a **free, open-source, self-hosted alternative**
+to expensive commercial vendor-risk platforms. If you searched for any of the following, this is it:
+
+**Free TPRM software / platform / tool** · **open-source TPRM platform** ·
+**free third-party risk management software** · **open-source third-party risk management** ·
+**free vendor risk management platform / software / system** · **open-source vendor risk management platform** ·
+**free vendor risk platform** · **free vendor risk assessment tool** ·
+**free risk rating platform** · **open-source security ratings / risk scoring** ·
+**free security questionnaire tool** · **free contract management software** ·
+**open-source GRC tool** · **self-hosted vendor risk management** · **vendor onboarding & offboarding software** ·
+**free breach & dark-web monitoring for vendors** · **PHP / XAMPP TPRM application**.
+
+It's also a **free, open-source alternative to** OneTrust, BitSight, SecurityScorecard, UpGuard,
+Whistic, Venminder, Prevalent, ProcessUnity, and Archer — no license fees, no per-vendor pricing,
+no cloud lock-in. Self-host it on stock XAMPP (PHP + MySQL) in five minutes.
+
+---
+
 ## 🥷 Become a TPRM Warrior
 
 This platform is part of the **[LearnTPRM.com](https://learntprm.com)** ecosystem — home of the
