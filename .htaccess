@@ -1,0 +1,12 @@
+# VendorAssess 360 — Apache hardening (works on stock XAMPP)
+Options -Indexes
+
+<FilesMatch "^(config\.php|config\.sample\.php)$">
+  Require all denied
+</FilesMatch>
+
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set Referrer-Policy "same-origin"
+</IfModule>

@@ -1,0 +1,2 @@
+# Uploaded files must never execute. Downloads are served via index.php?p=download only.
+Require all denied

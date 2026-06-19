@@ -1,0 +1,38 @@
+# ---- VendorAssess 360 ----
+# Never commit the generated config (contains DB credentials)
+config.php
+
+# User uploads (keep the folder + its .htaccess, ignore everything else)
+uploads/*
+!uploads/.htaccess
+
+# Installer lock / runtime artifacts
+install/.installed
+*.lock
+
+# Logs
+*.log
+logs/
+
+# PHP / Composer (not used, but just in case)
+vendor/
+composer.phar
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.sublime-*
+*.swp
+*~
+
+# Backups & archives
+*.bak
+*.tmp
+*.zip
+*.tar.gz
+*.sql.gz
