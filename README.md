@@ -2,7 +2,7 @@
 
 <img src="assets/img/banner.png" alt="LT-VRM — Free Third Party Risk Management Platform" width="100%">
 
-# LT-VRM
+# LT-VRM : LearnTPRM's Vendor Risk Management 
 
 ### Free Third Party Risk Management Platform
 
